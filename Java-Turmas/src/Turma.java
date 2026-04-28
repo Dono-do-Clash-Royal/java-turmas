@@ -62,9 +62,9 @@ public class Turma {
         
     public String getInfoTurma() {
         return "Informação da turma: \n " + 
-               "Codigo do Curso: " + codigo.toUpperCase();
-               "anoInicio: " + anoInicio.toUpperCase();
-               "anoFim: " + anoInicio +
+               "Codigo do Curso: " + codigo.toUpperCase() +
+               "Curso: " + nomeCurso.toUpperCase() +
+               "anoInicio: " + anoInicio +
                "anoFIm: " + anoFim;
     }
 
